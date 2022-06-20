@@ -15,7 +15,7 @@ services:
       POSTGRES_URL: 'jdbc:postgresql://db/petclinic'
 
   db:
-    image: postgres:14.3-alpine
+    image: postgres
     ports:
       - "5432:5432"
     networks:
